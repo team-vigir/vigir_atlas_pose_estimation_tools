@@ -1,0 +1,21 @@
+<package>
+  <name>vigir_bdi_to_tf_utils</name>
+  <version>0.0.1</version>
+  <description>
+    vigir_bdi_to_tf_utils provides a node that converts data as provided by the Atlas robot or other tools to tf
+  </description>
+  <maintainer email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</maintainer>
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/vigir_bdi_to_tf_utils</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>atlas_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>atlas_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>tf</run_depend>
+</package>
